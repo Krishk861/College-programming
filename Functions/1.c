@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-
-void Greet(){
-    printf("Good afternoon!!");
+void Greet(char name[50]){
+    printf("Good afternoon %s!!",name);
 }
 int main() {
-    Greet();
+    char name[50];
+    printf("Enter name: ");
+    scanf("%s",name);
+    Greet(name);
     return 0;
 }
