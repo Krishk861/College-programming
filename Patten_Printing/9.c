@@ -10,8 +10,12 @@ int main(){
     //Second loop iterates for no of columns-->No of elements
     {
         for(j=1;j<=c;j++)
+            if (i==1 || i==6){
             printf("*");
-            printf("\n");
+            }
+            else
+            printf(" ");
+        printf("\n");
     }
     return 0;
 }
