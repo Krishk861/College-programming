@@ -15,4 +15,4 @@ int main(){
     }
     return 0;
 }
-//For A square pattern use nX
+//For A square pattern use nXn
